@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/stylesheet.css"  media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ 	    <title>Awards - Charles Fr&eacute;dette</title>
+      <meta name="keywords" content="Charles Fredette, Fredette, junior golf, Vertex Investment Club, junior hockey player, young investor, young ceo, young company founder, Birik Fredette, Academie Sainte-Anne">
+      <meta name="description" content="Student, athlete, programmer and thinker. Born and raised in Canada." />
+	    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/documentReady.js"></script>
+      <script>$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });function expandAll(){
+  $(".collapsible-header").addClass("active");
+  $(".collapsible").collapsible({accordion: false});
+}
+
+function collapseAll(){
+  $(".collapsible-header").removeClass(function(){
+    return "active";
+  });
+  $(".collapsible").collapsible({accordion: true});
+  $(".collapsible").collapsible({accordion: false});
+}
+  </script>
+  <script>$(document).ready(function(){
+    $('.carousel').carousel();
+  });
+  </script>
+  <style>
+    body, html {
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    .bg {
+      /* The image used */
+      background-image: url("images/academics.png");
+
+      /* Full height */
+      height: 50%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .side-nav {
+      background-color: #fff;
+    }
+
+    </style>
+</head>
+<body>
+  <div class="bg">
+      <div class="navbar-fixed">
+        <nav class="transparent z-depth-0">
+          <div class="nav-wrapper">
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          </div>
+      </nav>
+    </div>
+    <h1 class="white-text" align="center">Awards</h1>
+    <br>
+    <ul class="side-nav" id="mobile-demo">
+      <li><div class="user-view">
+      <div class="background">
+        <img src="images/top_background.png">
+      </div>
+      <a href="#user"><img class="circle" src="images/fb.png"></a>
+      <a href="#name"><span class="white-text name">Charles Fr&eacute;dette</span></a>
+      <a href="#email"><span class="white-text email">charles.fredette@gmail.com</span></a>
+
+    </div></li>
+
+          <li><a href="academics">Academics</a></li>
+          <li>
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="collapsible-header">Athletics<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href="golf">Golf</a></li>
+                    <li><a href="hockey">Hockey</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li><a href="awards">Awards</a></li>
+          <li>
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="collapsible-header">Extracurriculars<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href="extracurriculars#toolbox">The Toolbox</a></li>
+                    <li><a href="extracurriculars#vertex">Vertex Investment Club</a></li>
+                    <li><a href="extracurriculars#programming">Computer Science</a></li>
+                    <li><a href="extracurriculars#school">School Activities & Clubs</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li><a href="work">Work Experience</a></li>
+        </ul>
+  </div>
+  <div class="row">
+    <h5>Coming Soon...</h5>
+  </div>
+  </body>
+</html>

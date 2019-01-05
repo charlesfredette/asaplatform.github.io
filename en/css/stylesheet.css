@@ -1,0 +1,52 @@
+.nav-extended {
+  background-color: #141414ff;
+}
+
+.video {
+  width: 569px;
+  height: 320px;
+}
+
+.main-content {
+  text-align: justify;
+}
+
+#header-logo {
+  height: 100%;
+}
+
+.side-nav {
+  background-color: #141414ff;
+}
+
+.side-nav-content {
+  color: white;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-subtitle {
+  font-size: 20px;
+}
+
+.small-padding {
+  padding: 10px;
+}
+
+.page-footer {
+  background-color: gray;
+}
+
+#ribbon_completed {
+  width: 100%;
+}
+
+#userLabel {
+  padding-right: 100px;
+}
+
+.pagination li.active {
+  background-color: #616161;
+}

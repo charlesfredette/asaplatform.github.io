@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/stylesheet.css"  media="screen,projection"/>
+      <!-- <link rel="alternate" hreflang="en-us"
+        href="https://www.asacodingclub.com/en"/>
+  <link rel="alternate" hreflang="fr-ca"
+        href="https://www.asacodingclub.com/en" /> -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ 	    <title>Club de programmation ASA - Accueil</title>
+      <meta name="description" content="Student, athlete, programmer and thinker. Born and raised in Canada." />
+      <meta name="keywords" content="charles fredette, Charles Fredette, Fredette, junior golf, Vertex Investment Club, junior hockey player, young investor, young ceo, young company founder, Birik Fredette, Academie Sainte-Anne">
+	    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/documentReady.js"></script>
+      <script>
+      $(document).ready(function(){
+        $('.tap-target').tapTarget('open');
+      });
+      </script>
+      <script>
+      $(document).ready(function(){
+        $('.modal').modal();
+      });
+      </script>
+  <style>
+      body, html {
+          height: 100%;
+          font-family: 'Open Sans', sans-serif;
+          background: url(images/top_background.png) no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          scroll-behavior: smooth;
+          }
+
+      .tap-target {
+        color: #fff;
+        a {
+          color: #fff;
+          text-decoration:underline;
+        }
+      }
+      .bg {
+        background-image: url("images/top_background.png");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .side-nav {
+        background-color: #6dcff6;
+      }
+      .centered {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 0%
+      }
+      .blink {
+        animation: blink-animation 0.8s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      .sidenav-footer {
+        margin-bottom: 0px;
+        padding: 0;
+          .row {
+            margin-bottom: 0;
+            .social-icons {
+              a {
+                opacity: 0.5;
+                padding: 0;
+                text-align:center;
+                &:hover {
+                  background-color:inherit;
+                  opacity: 1;
+                }
+              }
+            }
+          }
+        }
+  </style>
+</head>
+<body>
+  <div>
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <img id="header-logo" class="brand-logo center" src="images/top_logo.png" height="65px"></img></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="curriculum">Curriculum</a></li>
+              <li><a href="courseinfo">Information du programme</a></li>
+              <li><a href="instructor">&Agrave; propos de l'instructeur</a></li>
+              <li><a class="right" href='#'>FR <img class="logo" src="images/france.svg" height="13"></a></li>
+            </ul>
+          </div>
+        </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col s12">
+      <h1 class="center white-text">APPRENDRE &Agrave; CODER.<span class="blink">|</span></h1>
+      <h5 class="center white-text">Club de programmation de l'Acad&eacute;mie Sainte-Anne - 2018-2019</h5>
+    </div>
+    </div>
+    <ul class="side-nav" id="mobile-demo">
+      <li>
+        <div class="user-view">
+          <a class="modal-trigger right white-text" href="#alerts"><i class="material-icons">notifications</i></a>
+          <div class="background">
+            <img src="images/menu.jpg" height="100%"/>
+          </div>
+        <a href="#user"><img class="circle" src="images/fb.png"></a>
+        <a><span class="white-text name">Charles Fredette</span></a>
+        <a href="#"><span class="white-text"> <i class="material-icons">settings</i> <i class="right material-icons">exit_to_app</i></span></a>
+        </div>
+      </li>
+      <li><a href="curriculum">Curriculum</a></li>
+      <li><a href="courseinfo">Information du programme</a></li>
+      <li><a href="instructor">&Agrave; propos de l'instructeur</a></li>
+          <li>
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="collapsible-header">Langue<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href='#'>EN <img class="logo" src="images/us.svg" height="13"></a></li>
+                    <li><a href='#'>FR <img class="logo" src="images/france.svg" height="13"></a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+            </ul>
+            <div id="alerts" class="modal">
+             <div class="modal-content">
+               <ul class="collapsible">
+                 <li class="active">
+                   <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i> Nouveau Cours Disponible - 2019/01/05<span class="new badge asa-color"></span></div>
+                   <div class="collapsible-body">
+                     <div class="row">
+                       <div class="col s12">
+                        <p>A new course offering is available for the 2018-2019 students of the Sainte-Anne Academy.</p>
+                        <ul class="left">
+                          <a class="btn asa-color white-text" href="#curriculum">2018-2019 Course</a>
+                        </ul>
+                       </div>
+                     </div>
+                    </div>
+                 </li>
+              </ul>
+
+             </div>
+             </div>
+            <script>
+            $(document).ready(function(){
+               $('.modal').modal();
+             })
+            </script>
+            <script>
+            $(document).ready(function(){
+   $('.collapsible').collapsible();
+ });
+ </script>
+  </div>
+  <nav class="transparent z-depth-0">
+    <div class="nav-wrapper">
+      <ul class="center">
+        <a class="btn asa-color white-text" href="#curriculum">Cours de 2018-2019</a>
+      </ul>
+    </div>
+  </nav>
+  </body>
+  </html>
